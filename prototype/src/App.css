@@ -1,0 +1,30 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+#expand-button-expanded {
+	transform: rotate(0turn);
+}
+
+#sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background: #fff;
+	z-index: 10;
+}
+
+#stickySide {
+	position: -webkit-sticky;
+	background: #fff;
+	position: sticky;
+	top: 0;
+	min-height: 100vh;
+	z-index: 9;
+}
+
+#green {
+	background: #00b241;
+	color: #fff;
+}
