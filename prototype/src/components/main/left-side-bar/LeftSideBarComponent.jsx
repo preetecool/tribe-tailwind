@@ -12,7 +12,7 @@ const LeftSideBarComponent = () => {
 		<aside
 			className={
 				isSticky
-					? " sticky top-0 hidden lg:block lg:col-span-3 xl:col-span-3 pt-5 sm:pt-7"
+					? "sticky top-0 hidden lg:block lg:col-span-3 xl:col-span-3 pt-5 sm:pt-7"
 					: "hidden lg:block lg:col-span-3 xl:col-span-3 pt-5 sm:pt-7"
 			}
 			aria-label="Sidebar"
